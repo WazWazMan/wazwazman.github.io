@@ -59,14 +59,6 @@ const CommandPalette = ({ isOpen, onClose, onToggleTerminal, isTerminalOpen }: C
         action: () => router.push('/projects'),
       },
       {
-        id: 'go-articles',
-        label: 'Go to Articles',
-        category: 'Navigation',
-        shortcut: 'G R',
-        icon: <VscBook size={16} />,
-        action: () => router.push('/articles'),
-      },
-      {
         id: 'go-contact',
         label: 'Go to Contact',
         category: 'Navigation',

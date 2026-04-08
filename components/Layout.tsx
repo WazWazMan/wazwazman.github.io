@@ -48,7 +48,6 @@ const Layout = ({ children }: LayoutProps) => {
       'h': '/',
       'a': '/about',
       'p': '/projects',
-      'r': '/articles',
       'c': '/contact',
       'g': '/github',
       's': '/settings',
