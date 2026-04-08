@@ -25,8 +25,7 @@ export const metadata: Metadata = {
     title: "Daniel bogachevsky's Portfolio",
     description:
       "A third year computer science student at the technion.",
-// TODO: update metadata:
-    images: ['https://imgur.com/4zi5KkQ.png'],
+    images: ['https://i.imgur.com/8j1N4gw.png'],
     url: 'https://bogachevsky.com/',
   },
   twitter: {
