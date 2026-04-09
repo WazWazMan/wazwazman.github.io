@@ -21,7 +21,7 @@ const Bottombar = ({ onTerminalToggle, isTerminalOpen }: BottombarProps) => {
       <div className={styles.container}>
         {/* Change this */}
         <a
-          href="https://github.com/itsnitinr/vscode-portfolio"
+          href="https://github.com/WazWazMan/wazwazman.github.io"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -37,13 +37,6 @@ const Bottombar = ({ onTerminalToggle, isTerminalOpen }: BottombarProps) => {
         </div>
       </div>
       <div className={styles.container}>
-        <div
-          className={`${styles.section} ${isTerminalOpen ? styles.active : ''}`}
-          onClick={onTerminalToggle}
-          title="Toggle Terminal (Ctrl+`)"
-        >
-          <VscTerminal className={styles.icon} />
-        </div>
         <a href="https://github.com/WazWazMan" target="_blank" rel="noopener">
           <div className={styles.section}>
             <SiGithub className={styles.icon} />
